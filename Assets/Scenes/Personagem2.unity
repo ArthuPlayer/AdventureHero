@@ -419,6 +419,7 @@ GameObject:
   - component: {fileID: 753705268}
   - component: {fileID: 753705270}
   - component: {fileID: 753705269}
+  - component: {fileID: 753705271}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -545,6 +546,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753705267}
   m_CullTransparentMesh: 1
+--- !u!114 &753705271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753705267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23573cce63f52a049a8f136c01f63404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texto: {fileID: 753705269}
+  mensagemCompleta: Esse e o Erec o Heroi desse reino o  escolido para derrotar as
+    forcas do mal em sua jornada
+  velocidadeDigitacao: 0.05
+  som: {fileID: 0}
 --- !u!1 &869797709
 GameObject:
   m_ObjectHideFlags: 0

@@ -1285,7 +1285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nomePersonagem: MagoNecromancer
-  vida: 10
+  vida: 200
   ataque: 50
   defesa: 30
   especial: 0
@@ -1504,7 +1504,7 @@ MonoBehaviour:
   dB: {fileID: 839089394}
   spriteDerrota: {fileID: -6788167969615734115, guid: 910c44073ef3004458e29383e6f90a8c, type: 3}
   ehHeroi: 1
-  camera: {fileID: 0}
+  camera: {fileID: 2134184272}
 --- !u!1 &945714397
 GameObject:
   m_ObjectHideFlags: 0

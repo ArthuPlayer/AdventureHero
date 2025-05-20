@@ -1,5 +1,4 @@
 using System.Collections;
-using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -88,7 +87,7 @@ public class Player : MonoBehaviour
         if (valorAtaque > 0)
         {
             FalaDoPersonagem("Ataque");
-            dB.RecebeTexto("ARgh! Sinta Minha Furia!");
+            dB.RecebeTexto("Corte sagrado!");
             dB.RecebeTexto($"{nomePersonagem} ataca com {valorAtaque}");
         }
         else
@@ -130,7 +129,7 @@ public class Player : MonoBehaviour
         {
             int valorEspecialDobrado = (valorEspecial * 2) + fatorMultiplicador;
             FalaDoPersonagem("Ataque");
-            dB.RecebeTexto("ARgh! Sede de Vinguança!");
+            dB.RecebeTexto("Sede de Vinguança!");
             dB.RecebeTexto($"{nomePersonagem} ataca com {valorEspecialDobrado}");
             especial = 0;
             return valorEspecialDobrado;
@@ -138,7 +137,7 @@ public class Player : MonoBehaviour
         else if (chanceDeDobrar < 90 && especial >= 3)
         {
             FalaDoPersonagem("Ataque");
-            dB.RecebeTexto("ARgh! Vou te esmagar!");
+            dB.RecebeTexto("Furia das laminas sagradas!");
             dB.RecebeTexto($"{nomePersonagem} ataca com {valorEspecial}");
             especial = 0;
             return valorEspecial;

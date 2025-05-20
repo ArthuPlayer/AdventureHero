@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      magoNecromancer_0: 6826435231061865581
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

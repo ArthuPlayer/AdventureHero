@@ -673,6 +673,7 @@ GameObject:
   - component: {fileID: 1746029711}
   - component: {fileID: 1746029713}
   - component: {fileID: 1746029712}
+  - component: {fileID: 1746029714}
   m_Layer: 5
   m_Name: Descricao
   m_TagString: Untagged
@@ -804,6 +805,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746029710}
   m_CullTransparentMesh: 1
+--- !u!114 &1746029714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746029710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23573cce63f52a049a8f136c01f63404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texto: {fileID: 1746029712}
+  mensagemCompleta: "voce entra na floresta em busca do castelo do mago, mas em meio
+    as moitas voce ve uma criatura avancando em sua direcao, voce toma a desissao
+    de fujjir da criatura. Para voce fugir da criatura voce tera que aperta um desses
+    dois butoes  ( <-- ) ( --> )\n\n-se a criatura aparecer do lado direito  voce
+    terar que desviar indo para o lado da esquerda,\na mesma coisa se a criatura
+    aparecer na esquerda \n- a criatura ira apartecer de forma aleatoria, se voce
+    aperta o butao errado a criatura vai te pegar.\nBoa Sorte"
+  velocidadeDigitacao: 0.05
+  som: {fileID: 0}
 --- !u!1 &1887062974
 GameObject:
   m_ObjectHideFlags: 0

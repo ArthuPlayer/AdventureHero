@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stone-aisle-old-dark-medieval_0: -7167712419226562222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

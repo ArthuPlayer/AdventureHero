@@ -421,6 +421,7 @@ GameObject:
   - component: {fileID: 834966868}
   - component: {fileID: 834966870}
   - component: {fileID: 834966869}
+  - component: {fileID: 834966871}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -559,6 +560,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834966867}
   m_CullTransparentMesh: 1
+--- !u!114 &834966871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834966867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23573cce63f52a049a8f136c01f63404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texto: {fileID: 834966869}
+  mensagemCompleta: 'voce finalmente conseguil derrotar o mago necromancer e pegou
+    a joia dele e libertou as almas aprisionadas.
+
+
+    voce vultou pro seu castelo
+    e contou ao rei o seu feito, ele muinto sastifeito te entregou a recompenca por
+    te derrotado o mago.
+
+    Logo em seguida voce volta pra sua casa e descanca
+    ate a sua prossima jornada
+
+
+
+    Obrigado por jogar'
+  velocidadeDigitacao: 0.05
+  som: {fileID: 0}
 --- !u!1 &1448496476
 GameObject:
   m_ObjectHideFlags: 0

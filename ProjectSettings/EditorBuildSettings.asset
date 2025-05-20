@@ -53,13 +53,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Opicao1/CenaDaMorte.unity
     guid: f29661960c13e9c4b9ed6e1195bf7ea7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Opicao2/ApresentacaoBatalha.unity
     guid: 2c3b7204baa958344899d65e09477b4d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Opicao2/CenaDaBatalha.unity
     guid: 49ab26189febdce4ca09284e71f535de
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Opicao2/CenaPosBatalha.unity
     guid: 0c03d6f36bdecc9478db801cb48577aa
   - enabled: 1
